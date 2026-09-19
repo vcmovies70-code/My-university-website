@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import londonimg from "../assets/london.png";
 import newyorkimg from "../assets/newyork.png";
 import washingtonimg from "../assets/washington.png"
+import libraryimg from "../assets/library.png"
 
 const index = () => {
   return (
@@ -104,7 +105,7 @@ const index = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, aut?</p>
         <div className="row-3">
             <div className="facilities-col">
-                <img src="./src/assets/library.png" alt=""/>
+                <img src={libraryimg} alt=""/>
                 <h3>World Class Library</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, numquam.</p>
 
