@@ -5,6 +5,7 @@ import londonimg from "../assets/london.png";
 import newyorkimg from "../assets/newyork.png";
 import washingtonimg from "../assets/washington.png"
 import libraryimg from "../assets/library.png"
+import basketballimg from "../assets/basketball.png"
 
 const index = () => {
   return (
@@ -112,7 +113,7 @@ const index = () => {
             </div>
 
              <div className="facilities-col">
-                <img src="./src/assets/basketball.png" alt=""/>
+                <img src={basketballimg} alt=""/>
                 <h3>Largest Plaground</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, numquam.</p>
 
