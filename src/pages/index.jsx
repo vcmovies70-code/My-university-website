@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import londonimg from "../assets/london.png";
 import newyorkimg from "../assets/newyork.png";
-import washingtonimg from "../assets/washington.png"
-import libraryimg from "../assets/library.png"
-import basketballimg from "../assets/basketball.png"
-import cafeteriaimg from "../assets/cafeteria.png"
+import washingtonimg from "../assets/washington.png";
+import libraryimg from "../assets/library.png";
+import basketballimg from "../assets/basketball.png";
+import cafeteriaimg from "../assets/cafeteria.png";
+import christineimg from "../assets/user1.jpg";
 
 const index = () => {
   return (
@@ -138,7 +139,7 @@ const index = () => {
 
         <div className="row-4">
             <div className="testimonial-col">
-                <img src="./src/assets/user1.jpg" alt=""/>
+                <img src={christineimg} alt=""/>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, deserunt.</p>
                     <h3>Christine Berkley</h3>
