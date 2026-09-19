@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const index = () => {
   return (
@@ -7,7 +8,7 @@ const index = () => {
       
     <section className="header">
         <nav>
-            <Link to="/"> <img src="./src/assets/logo.png" alt=""/></Link>
+            <Link to="/"> <img src={logo} alt=""/></Link>
             <div className="nav-links" id="nav-links">
                 <i className="fa fa-times" onClick="hidemenu()"></i>
                 <ul>
