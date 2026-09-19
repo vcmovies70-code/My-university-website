@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import about from "../assets/about.jpg"
+import aboutlogo from "../assets/logo.png"
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
       
     <section className="sub-header">
         <nav>
-            <a href="index.html"> <img src="./src/assets/logo.png" alt=""/></a>
+            <a href="index.html"> <img src={aboutlogo} alt=""/></a>
             <div className="nav-links" id="nav-links">
                 <i className="fa fa-times" onClick="hidemenu()"></i>
                 <ul>
