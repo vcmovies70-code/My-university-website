@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
-import bloglogoimg from "../assets/bloglogo.png";
+import bloglogoimg from "../assets/logo.png";
 import certificateimg from "../assets/certificate.jpg"
 
 const Blog = () => {
