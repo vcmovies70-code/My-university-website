@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import londonimg from "../assets/london.png";
+import newyorkimg from "../assets/newyork.png";
 
 const index = () => {
   return (
@@ -76,7 +77,7 @@ const index = () => {
             </div>
 
              <div className="campus-col">
-                <img src={ne} alt=""/>
+                <img src={newyorkimg} alt=""/>
                 <div className="layer">
                     <h3>NEW YORK</h3>
 
