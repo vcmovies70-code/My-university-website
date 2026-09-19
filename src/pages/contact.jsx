@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import contactlogoimg from "../assets/logo.png"
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
 
     <section className="sub-header">
         <nav>
-            <a href="index.html"> <img src="./logo.png" alt=""/></a>
+            <a href="index.html"> <img src={contactlogoimg} alt=""/></a>
             <div className="nav-links" id="nav-links">
                 <i className="fa fa-times" onClick={() => hidemenu()}></i>
                 <ul>
