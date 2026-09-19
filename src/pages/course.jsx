@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import contactlogoimg from "../assets/logo.png"
 import courselibraryimg from "../assets/library.png"
 import courseplaygroundimg from "../assets/basketball.png"
+import coursecafeteriaimg from "../assets/cafeteria.png"
 
 const Course = () => {
   return (
@@ -78,7 +79,7 @@ const Course = () => {
             </div>
 
              <div className="facilities-col">
-                <img src="./src/assets/cafeteria.png" alt=""/>
+                <img src={coursecafeteriaimg} alt=""/>
                 <h3>Tasty and Healthy Food</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, numquam.</p>
 
