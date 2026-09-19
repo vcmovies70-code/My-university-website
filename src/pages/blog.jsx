@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
 import bloglogoimg from "../assets/bloglogo.png";
+import certificateimg from "../assets/certificate.jpg"
 
 const Blog = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Blog = () => {
     <section className="blog-content">
         <div className="blog-row">
             <div className="blog-left">
-                <img src="./src/assets/certificate.jpg" alt=""/>
+                <img src={certificateimg} alt=""/>
                 <h2>Our Certificate & Online Programs For 2021</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam vel tempore corrupti nam illum molestiae ipsum iste non. Unde in commodi quos repudiandae maxime. Totam voluptas sapiente sed! Doloremque, odit.</p>
                 <br/>
