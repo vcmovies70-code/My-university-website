@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import london from "../assets/london.png";
+import londonimg from "../assets/london.png";
 
 const index = () => {
   return (
@@ -67,7 +67,7 @@ const index = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam.</p>
         <div className="row-2">
             <div className="campus-col">
-                <img src={london} alt=""/>
+                <img src={londonimg} alt=""/>
                 <div className="layer">
                     <h3>LONDON</h3>
 
@@ -76,7 +76,7 @@ const index = () => {
             </div>
 
              <div className="campus-col">
-                <img src="./s alt=""/>
+                <img src={ne} alt=""/>
                 <div className="layer">
                     <h3>NEW YORK</h3>
 
