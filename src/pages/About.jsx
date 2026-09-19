@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import about from "../assets/about.jpg"
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
             </div>
 
             <div className="about-col">
-                <img src="./src/assets/about.jpg" alt=""/>
+                <img src={about} alt=""/>
             </div>
 
         </div>
