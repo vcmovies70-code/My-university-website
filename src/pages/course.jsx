@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import contactlogoimg from "../assets/logo.png"
+import courselibraryimg from "../assets/library.png"
 
 const Course = () => {
   return (
@@ -62,7 +63,7 @@ const Course = () => {
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, aut?</p>
         <div className="row-3">
             <div className="facilities-col">
-                <img src="./src/assets/library.png" alt=""/>
+                <img src={courselibraryimg} alt=""/>
                 <h3>World Class Library</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, numquam.</p>
 
