@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
+import bloglogoimg from "../assets/bloglogo.png";
 
 const Blog = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Blog = () => {
 
     <section className="sub-header">
         <nav>
-            <a href="index.html"> <img src="./logo.png" alt=""/></a>
+            <a href="index.html"> <img src={bloglogoimg} alt=""/></a>
             <div className={`nav-links ${menuOpen ? "show" : ""}`} id="nav-links">
                 <i className="fa fa-times" onClick={hidemenu}></i>
                 <ul>
