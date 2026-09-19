@@ -8,6 +8,7 @@ import libraryimg from "../assets/library.png";
 import basketballimg from "../assets/basketball.png";
 import cafeteriaimg from "../assets/cafeteria.png";
 import christineimg from "../assets/user1.jpg";
+import davidimg from "../assets/user2.jpg";
 
 const index = () => {
   return (
@@ -156,7 +157,7 @@ const index = () => {
 
              
             <div className="testimonial-col">
-                <img src="./src/assets/user2.jpg" alt=""/>
+                <img src={davidimg} alt=""/>
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, deserunt.</p>
                     <h3>David Byer</h3>
