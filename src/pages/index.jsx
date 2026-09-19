@@ -6,6 +6,7 @@ import newyorkimg from "../assets/newyork.png";
 import washingtonimg from "../assets/washington.png"
 import libraryimg from "../assets/library.png"
 import basketballimg from "../assets/basketball.png"
+import cafeteriaimg from "../assets/cafeteria.png"
 
 const index = () => {
   return (
@@ -120,7 +121,7 @@ const index = () => {
             </div>
 
              <div className="facilities-col">
-                <img src="./src/assets/cafeteria.png" alt=""/>
+                <img src={cafeteriaimg} alt=""/>
                 <h3>Tasty and Healthy Food</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, numquam.</p>
 
